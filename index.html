@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A Jornada do Herói Cibernético</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="background.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="wrapper" id="wrapper"></div>
+
+    <div class="container">
+      <h1>A Jornada do Herói Cibernético</h1>
+      <p class="description">Reordene os fragmentos de código para restaurar o Algoritmo Eterno e salvar ByteLand!</p>
+
+      <div class="input-group">
+        <label for="input-fragments">Entrada:</label>
+        <input type="text" id="input-fragments" placeholder="Ex: iniciar, conectar, destruir, autenticar" />
+      </div>
+
+      <div class="button-group">
+        <button id="sort-btn" class="cyber-button">ORDENAR</button>
+        <button id="reset-btn" class="cyber-button">RETORNAR</button>
+      </div>
+      <br />
+      <br />
+      <div class="result-container">
+        <label for="output-result">Saída:</label>
+        <div id="output-result" class="output-field"></div>
+      </div>
+
+      <div class="calculation-container">
+        <h3>Cálculo:</h3>
+        <div id="calculation-steps" class="calculation-steps"></div>
+      </div>
+    </div>
+
+    <script src="backscript.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
